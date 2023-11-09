@@ -1,0 +1,28 @@
+:root {
+    
+}
+
+p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card--body {
+    display: block;
+    margin: auto;
+    width: 300px;
+}
+
+.img--card {
+    aspect-ratio: 1/1;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    border: 2px white solid;
+}
+
+.card--title {
+    font-weight: bold;
+    font-size: 1.6em;
+    padding: 5px;
+    border-bottom: 1px black solid;
+}
