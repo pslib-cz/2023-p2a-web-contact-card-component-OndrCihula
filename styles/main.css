@@ -1,28 +1,53 @@
-:root {
-    
+body {
+    background-image: url(../img/bg.webp);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
-p {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.icon {
+    font-family: 'icomoon';
+}
+
+.cards {
+    display: flex;
 }
 
 .card--body {
-    display: block;
+    display: inline-block;
     margin: auto;
     width: 300px;
+    background-color: white;
+    margin: 7em 2.5em 0 2.5em;
+    padding: 2em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0.7em 0.4em 1em rgb(100, 100, 100);
+}
+
+.img {
+    width: 100%;
 }
 
 .img--card {
     aspect-ratio: 1/1;
-    width: 100%;
-    height: 100%;
+    width: 10em;
+    object-position: top;
+    object-fit: cover;
+    margin: auto;
+    margin-top: -8em;
     border-radius: 100%;
-    border: 2px white solid;
+    overflow: hidden;
+    border: 5px white solid;
+    box-shadow: 0.7em 0.4em 1em rgb(100, 100, 100);
+    
 }
 
 .card--title {
     font-weight: bold;
     font-size: 1.6em;
-    padding: 5px;
     border-bottom: 1px black solid;
+}
+
+.card--code {
+    font-weight: normal;
+    font-size: 1em;
 }
